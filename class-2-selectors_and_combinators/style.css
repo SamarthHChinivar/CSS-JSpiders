@@ -1,0 +1,14 @@
+*{
+  color: azure;
+  text-align: center;
+}
+
+p{
+  color: green;
+  text-align: justify;
+}
+
+h1,h2,.four,#third {
+  color: red;
+  text-align: left;
+}

@@ -1,0 +1,19 @@
+/* Descandant Combinator */
+div p{
+  color: red;
+}
+
+/* Child Combinator */
+div>p {
+  color: blue;
+}
+
+/* Adjacent Siblings Combinator */
+div+p{
+  color: aqua;
+}
+
+/* General Siblings Combinators */
+div~p{
+  color: green;
+}
