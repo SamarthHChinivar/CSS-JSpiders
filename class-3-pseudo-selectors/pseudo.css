@@ -1,0 +1,56 @@
+/* Order of pseudo classes must be maintained, in order to all pseudo classes to work: */
+
+/* 1.link 
+  2.visited 
+  3.hover 
+  4.active  */
+
+#first:link {
+  color: red;
+}
+
+#first:visited{
+  color:aquamarine;
+}
+
+#first:hover{
+  color:green;
+}
+
+#first:active{
+  color: blue;
+}
+
+div{
+  background-color: red;
+  height: 100px;
+  width:100px;
+}
+
+div:hover{
+  background-color: yellow;
+  height: 200px;
+  width:200px;
+}
+
+span{
+  background-color: blue;
+  width:100px;
+}
+
+span:hover{
+  background-color: green;
+  width:200px;
+}
+
+li:nth-child(odd){
+  color:blue;
+}
+
+li:nth-child(even){
+  color: orange;
+}
+
+li:nth-child(3n+1){
+  color:black;
+}
