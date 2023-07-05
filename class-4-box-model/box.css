@@ -1,0 +1,73 @@
+body{
+  margin-left: 20%;
+}
+
+span{
+  /* border: 5px solid red; */
+  padding: 50px;
+
+  /* border: 5px inset red; */
+  /* border: 5px outset red; */
+  border: 25px ridge red;
+
+  border-radius: 12px;
+
+  /* border-top: 5px solid red;
+  border-bottom: 5px solid yellow;
+  border-left: 5px solid blue;
+  border-right: 5px solid green; */
+
+  /* border-top: 5px dashed red;
+  border-bottom: 5px dashed yellow;
+  border-left: 5px dashed blue;
+  border-right: 5px dashed green; */
+
+  /* border-top: 5px double red;
+  border-bottom: 5px double yellow;
+  border-left: 5px double blue;
+  border-right: 5px double green; */
+
+  /* border-top: 5px dotted red;
+  border-bottom: 5px dotted yellow;
+  border-left: 5px dotted blue;
+  border-right: 5px dotted green; */
+
+  /* padding: 40px 30px 20px 10px; */
+}
+
+/* Padding Sequence:
+  padding: all sides (1);
+  padding: top-bottom left-right (2);
+  padding: top left-right bottom (3);
+  padding: top right bottom left (4);
+
+  when all 4 values are provided to padding, then direction starts from top to left clock-wise */
+
+  /* Border Radius Sequence:
+  border-radius:
+  direction:
+   top-left-edge top-right-edge bottom-right-edge bottom-left-edge 
+   clock-wise 
+   */
+
+#straight{
+  border: 10px solid violet;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+#curve {
+  border: 10px solid olive;
+  border-radius: 50%;
+}
+
+#third {
+  border: 10px solid blue;
+  border-radius: 30% 10% 60% 75%;
+}
+
+#four{
+  border: 10px solid palevioletred;
+  border-radius: 50% 0% 50% 0%;
+
+}

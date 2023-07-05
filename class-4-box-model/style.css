@@ -1,0 +1,13 @@
+p::first-line{
+  color: blue;
+}
+
+p::first-letter{
+  color: brown;
+  font-size: 30px;
+}
+
+p::selection{
+  background-color: aqua;
+  color: blueviolet;
+}
