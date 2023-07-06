@@ -1,0 +1,25 @@
+/* div{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  //margin:100px;
+  margin: 0px auto;
+} */
+
+.gradients {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(45deg, violet, indigo, blue, green, yellow, red);
+}
+
+.radial-gradients {
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(circle, violet, indigo, blue, green, yellow, red);
+}
+
+.concic-gradients {
+  height: 100vh;
+  width: 100vw;
+  background-image: conic-gradient(violet, indigo, blue, green, yellow, red);
+}

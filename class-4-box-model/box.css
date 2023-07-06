@@ -1,5 +1,7 @@
 body{
-  margin-left: 20%;
+  /* margin-left: auto;
+  margin-right: right; */
+  margin:0px auto;
 }
 
 span{
@@ -69,5 +71,5 @@ span{
 #four{
   border: 10px solid palevioletred;
   border-radius: 50% 0% 50% 0%;
-
+  margin: 0%;
 }
