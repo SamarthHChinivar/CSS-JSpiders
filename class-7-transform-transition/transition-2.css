@@ -1,0 +1,58 @@
+#animation{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+
+  animation-name: demo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  position: absolute;
+}
+
+ /* @keyframes demo {
+  from{
+    background-color: red;
+  }
+
+  to{
+    background-color: yellow;
+  } 
+} */
+
+@keyframes demo {
+  0%{
+    background-color: red;
+    top: 0%;
+    left: 0%;
+    border-radius: 0%;
+  }
+
+  25%{
+    background-color:yellowgreen;
+    top: 0%;
+    left: 25%;
+    border-radius: 25%;
+  }
+
+  50%{
+    background-color:olivedrab;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+  }
+
+  75%{
+    background-color:blue;
+    top: 0%;
+    left: 75%;
+    border-radius: 75%;
+  }
+
+  100%{
+    background-color: green;
+    top: 50%;
+    left: 100%;
+    border-radius: 100%;
+  }
+}

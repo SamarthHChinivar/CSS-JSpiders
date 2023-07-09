@@ -1,0 +1,185 @@
+#animations{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: demo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  /* animation-delay: 1s; */
+} 
+
+@keyframes demo{
+  0%{
+    background-color: red;
+    top: 0;
+    left: 0;
+    
+  }
+  25%{
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+    
+
+  }
+  50%{
+    background-color: green;
+    top: 400px;
+    left: 400px;
+    
+
+  }
+  75%{
+    background-color: red;
+    top: 400px;
+    left: 0;
+   
+  }
+
+  100%{
+    background-color: purple;
+    top: 0;
+    left: 0;
+
+  }
+}
+
+#animations1{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: demo1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-delay: 1s;
+} 
+
+@keyframes demo1{
+  0%{
+    background-color: red;
+    top: 0;
+    left: 0;
+    
+  }
+  25%{
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+    
+
+  }
+  50%{
+    background-color: green;
+    top: 400px;
+    left: 400px;
+    
+
+  }
+  75%{
+    background-color: red;
+    top: 400px;
+    left: 0;
+   
+  }
+
+  100%{
+    background-color: purple;
+    top: 0px;
+    left: 0;
+
+  }
+}
+
+#animations2{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: demo2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-delay: 2s;
+} 
+
+@keyframes dem2 {
+  0%{
+    background-color: red;
+    top: 0;
+    left: 0;
+    
+  }
+  25%{
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+    
+
+  }
+  50%{
+    background-color: green;
+    top: 400px;
+    left: 400px;
+    
+
+  }
+  75%{
+    background-color: red;
+    top: 400px;
+    left: 0;
+   
+  }
+
+  100%{
+    background-color: purple;
+    top: 0px;
+    left: 0;
+
+  }
+}
+
+#animations3{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: demo3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+   animation-delay: 3s;
+} 
+
+@keyframes demo3{
+  0%{
+    background-color: red;
+    top: 0;
+    left: 0;
+    
+  }
+  25%{
+    background-color: yellow;
+    left: 400px;
+    top: 0;
+
+  }
+  50%{
+    background-color: green;
+    top: 400px;
+    left: 400px;
+    
+  }
+  75%{
+    background-color: red;
+    top: 400px;
+    left: 0;
+   
+  }
+
+  100%{
+    background-color: purple;
+    top: 0px;
+    left: 0;
+
+  }
+}

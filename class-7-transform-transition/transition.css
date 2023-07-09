@@ -1,0 +1,172 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+#transition{
+  height: 100px;
+  width: 100px;
+  margin: 100px auto;
+  background-color: purple;
+
+  /* transform: scale(1.5); */
+  /* transition: width 2s, height 3s, border-radius 2s; */
+
+  transition: all;
+  transition-duration: 2s;
+}
+
+#transition:hover{
+  /* width:200px;
+  height:50px;
+  border-radius: 50%; */
+
+  transform:skew(540deg); 
+}
+
+
+
+#animation1{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+
+  animation-name: demo1;
+  animation-duration: infinite;
+  animation-iteration-count: 3;
+  animation-delay: 4s;
+  position: absolute;
+}
+
+#animation2{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+
+  animation-name: demo2;
+  animation-duration: infinite;
+  animation-iteration-count: 3;
+  animation-delay: 6s;
+  position: absolute;
+}
+
+#animation3{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+
+  animation-name: demo3;
+  animation-duration: infinite;
+  animation-iteration-count: 3;
+  animation-delay: 8s;
+  position: absolute;
+
+}
+
+@keyframes demo {
+  25%{
+    background-color:yellowgreen;
+    top: 0%;
+    left: 0%;
+  }
+
+  50%{
+    background-color:olivedrab;
+    top: 0%;
+    left: 50%;
+  }
+
+  75%{
+    background-color:blue;
+    top: 50%;
+    left: 50%;
+  }
+
+  100%{
+    background-color: green;
+    top: 50%;
+    left: 0%;
+
+  }
+}
+
+@keyframes demo1 {
+  25%{
+    background-color:yellowgreen;
+    top: 0%;
+    left: 50%;
+  }
+
+  50%{
+    background-color:olivedrab;
+    top: 50%;
+    left: 50%;
+  }
+
+  75%{
+    background-color:blue;
+    top: 50%;
+    left: 0%;
+  }
+
+  100%{
+    background-color: green;
+    top: 0%;
+    left: 0%;
+
+  }
+}
+
+@keyframes demo2 {
+  25%{
+    background-color:yellowgreen;
+    top: 0;
+    left: 400px;
+  }
+
+  50%{
+    background-color:olivedrab;
+    top: 50px;
+    left: 0;
+  }
+
+  75%{
+    background-color:blue;
+    top: 0%;
+    left: 0%;
+  }
+
+  100%{
+    background-color: green;
+    top: 0%;
+    left: 50%;
+
+  }
+}
+
+@keyframes demo3 {
+  25%{
+    background-color:yellowgreen;
+    top: 50%;
+    left: 0%;
+  }
+
+  50%{
+    background-color:olivedrab;
+    top: 0%;
+    left: 0%;
+  }
+
+  75%{
+    background-color:blue;
+    top: 50%;
+    left: 50%;
+  }
+
+  100%{
+    background-color: green;
+    top: 0%;
+    left: 50%;
+
+  }
+}
