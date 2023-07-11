@@ -6,7 +6,40 @@
   animation-duration: 4s;
   animation-iteration-count: infinite;
   position: absolute;
-  /* animation-delay: 1s; */
+  animation-delay: 1s;
+} 
+
+#animations1{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: demo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-delay: 2s;
+} 
+
+#animations2{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: demo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-delay: 3s;
+} 
+
+#animations3{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-name: demo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: absolute;
+   animation-delay: 4s;
 } 
 
 @keyframes demo{
@@ -45,18 +78,8 @@
   }
 }
 
-#animations1{
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  animation-name: demo1;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  position: absolute;
-  animation-delay: 1s;
-} 
 
-@keyframes demo1{
+/* @keyframes demo1{
   0%{
     background-color: red;
     top: 0;
@@ -90,20 +113,10 @@
     left: 0;
 
   }
-}
+} */
 
-#animations2{
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  animation-name: demo2;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  position: absolute;
-  animation-delay: 2s;
-} 
 
-@keyframes dem2 {
+/* @keyframes dem2 {
   0%{
     background-color: red;
     top: 0;
@@ -137,20 +150,10 @@
     left: 0;
 
   }
-}
+} */
 
-#animations3{
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  animation-name: demo3;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  position: absolute;
-   animation-delay: 3s;
-} 
 
-@keyframes demo3{
+/* @keyframes demo3{
   0%{
     background-color: red;
     top: 0;
@@ -182,4 +185,4 @@
     left: 0;
 
   }
-}
+} */
