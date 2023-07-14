@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+}
+
+#flex{
+  display: flex;
+  background-color: aquamarine;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  /* align-content: space-between; */
+}
+
+/* child combinator */
+#flex > div {
+  height: 55px;
+  width: 45px;
+  background-color: antiquewhite;
+  margin: 15px;
+}
