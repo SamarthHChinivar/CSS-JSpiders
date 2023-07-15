@@ -1,0 +1,15 @@
+p{
+  text-align: left;
+  text-transform: capitalize;
+  text-indent:45px;
+  /* text-decoration: underline; */
+  /* text-decoration: none; */
+  /* text-decoration: line-through; */
+
+}
+
+h1{
+  /* text-shadow: x-axis-value y-axis-value blur-effect-value color */
+  text-shadow: 4px 3.5px 5px red;
+  text-align: center;
+}

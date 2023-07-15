@@ -1,4 +1,4 @@
-/* Descandant Combinator */
+/* Descandant Combinator*/
 div p{
   color: red;
 }
@@ -10,7 +10,7 @@ div>p {
 
 /* Adjacent Siblings Combinator */
 div+p{
-  color: aqua;
+  color: orange;
 }
 
 /* General Siblings Combinators */
