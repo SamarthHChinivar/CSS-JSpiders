@@ -1,0 +1,19 @@
+/* #background {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  margin: 20px auto;
+} */
+
+body{
+  background: url("./4k\ spark.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+p{
+  color: white;
+}
